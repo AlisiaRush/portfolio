@@ -1,0 +1,1025 @@
+/****************************************************X SMALL*******************************/
+/****************************************************X SMALL*******************************/
+/****************************************************X SMALL*******************************/
+@media screen and (min-width: 480px) {
+  .content-container{
+    padding:0 15px;
+  }
+  .intro{margin-top:150px;
+  }
+  .intro img{
+    width:30%;
+  }
+
+h1{
+  color:#79878f;
+  font-size:4em;
+  font-family:'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom:0;
+}
+h2{
+  text-align:left;
+  color:#c4cfd5;
+}
+
+span{
+  color:#c4cfd5;
+}
+
+  .intro p{
+    color:#79878f;
+    font-size:2em;
+    line-height:.5;
+  }
+
+  .about{
+    margin-top:80px;
+    text-align:center;
+  }
+
+  .about .selfie img{
+    width:70%;
+    border-radius:50%;
+    border: 2px solid #4ac4da;
+  }
+
+  .about .count{
+    background: #48a09c;
+    border: 1px solid #bbf5f3;
+    border-radius: 100%;
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    left: 32%;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about .divider{
+    margin-top:4px;
+  }
+
+  .about .divider img{
+    border-radius:none;
+    border: none;
+    width:100%;
+  }
+
+  .about p{
+    text-align:left;
+    color:#c4cfd5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom:40px;
+  }
+
+  .skills .count{
+    background: #48a09c;
+    border: 1px solid #bbf5f3;
+    border-radius: 100%;
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    right: 51%;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .skills .divider{
+    margin-top:4px;
+  }
+
+  .skills .divider img{
+    border-radius:none;
+    border: none;
+    width:100%;
+  }
+
+  .skills{
+    margin-top:80px;
+  }
+
+  .skills ul{
+    margin:20px 0 0 0;
+    padding:0;
+  }
+  .skills li{
+    list-style-type:none;
+  }
+
+  .fa-solid{
+    transform: rotate(95deg);
+    color:#77ffff;
+    margin-right:5px;
+  }
+
+  .work-history{
+    margin-top:80px;
+  }
+
+  .work-history .count{
+    background: #48a09c;
+    border: 1px solid #bbf5f3;
+    border-radius: 100%;
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    left: 41%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .work-history .divider{
+    margin-top:8px;
+  }
+
+  .work-history .divider img{
+    border-radius:none;
+    border: none;
+    width:100%;
+  }
+
+  .work-history-scroll{
+    margin:20px 15px 40px 15px;
+    padding:20px;
+    width:93%;
+    background:#0a1e2a;
+    height:199px;
+    overflow-y: scroll;
+  }
+
+  .work-history-scroll ul{
+    margin:0;
+    padding:0;
+  }
+  .work-history-scroll li{
+    list-style-type:none;
+    margin: 15px 0;
+    color:#c4cfd5;
+  }
+
+.work-history-container{
+  padding-top:15px;
+  border-top:1px solid #2f444d;
+}
+
+.work-history-container h3{
+  font-size:1.2em;
+  color:#a3aac5;
+}
+
+.work-history-container .work-year{
+  display:block;
+  text-align:right;
+  color:#a3aac5;
+}
+
+  .work-history-container .work-title{
+  color:#fff;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(104, 232, 255);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c3faff;
+}
+
+.portfolio h3{
+ font-size:1em;
+}
+
+.portfolio a{
+  color:#77ffff;
+  text-decoration:none;
+}
+
+.portfolio-container{
+  margin:20px auto;
+}
+
+.portfolio-container h3{
+  color:#c4cfd5;
+  margin:0;
+  font-size:1.5em;
+}
+
+.portfolio .count{
+  background: #48a09c;
+  border: 1px solid #bbf5f3;
+  border-radius: 100%;
+  width: 20px;
+  height: 25px;
+  position: absolute;
+  text-align: center;
+  right: 51%;
+  margin-top: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio .divider{
+  margin-top:4px;
+}
+
+.portfolio .divider img{
+  border-radius:none;
+  border: none;
+  width:100%;
+}
+
+
+.services{
+  margin-top:40px;
+  padding: 0 85px;
+}
+
+.service-container{
+  align-items: center;
+  text-align:center;
+  background: #0a1e2a;
+  margin: 15px 0;
+  border: 1px solid #374a54;
+  padding:10px;
+}
+
+.service-container .fa-solid{
+  margin-top:10px;
+  transform: rotate(0);
+  font-size:2em;
+}
+
+.service-container p{
+  text-align:left;
+  padding:10px;
+}
+
+.contact{
+  margin:100px 0 10px 0;
+  text-align:center;
+}
+
+.contact h3{
+  margin-bottom:40px;
+  text-align:center;
+}
+
+.contact form{
+  background:#194057;
+  padding:20px;
+  text-align:left;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  margin-bottom:60px;
+}
+
+.contact form .btn.btn-primary{
+  background:#49a5b8;
+  border:none;
+}
+
+footer{
+  background:#2e7c9a;
+  text-align:center;
+margin-top:100px;
+padding: 10px;
+}
+
+footer p{
+  padding: 0;
+  margin:0;
+}
+
+}
+
+
+/****************************************************MEDIUM*******************************/
+/****************************************************MEDIUM*******************************/
+/****************************************************MEDIUM*******************************/
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .content-container{
+    padding:0 15px;
+  }
+
+  .intro{
+    margin: 150px auto;
+  }
+
+  .about .selfie img{
+    width:100%;
+    margin-top:25px;
+  }
+
+
+  .about .count{
+    left:20%;
+    margin-top:6px;
+   }
+
+  .about .count .divider{
+   margin-top:6px;
+  }
+
+   .skills .count{
+    left: 32%;
+    margin-top: 6px;
+   }
+
+  .work-history .count{
+    left: 32%;
+    margin-top:10px;
+  }
+
+  .work-history .divider{
+    margin-top:10px;
+  }
+
+  .portfolio .count{
+    left: 32%;
+    margin-top:6px;
+  }
+
+  .portfolio .divider{
+    margin-top:6px;
+  }
+
+  .portfolio-backdrop{
+    background:#164653;
+    padding:20px;
+  }
+
+  .portfolio-container img{
+    width:100%;
+  }
+
+  .portfolio-container h3{
+    font-size:1em;
+  }
+
+  .portfolio-container p{
+    font-size:.8em;
+  }
+
+  .portfolio-container img{
+    opacity: 0.8;
+    transition: .2s ease-out;
+  }
+
+  .portfolio-container img:hover{
+    border: 2px solid #3bf0ff;
+    padding: 5px;
+    background: #eaf8fb;
+    opacity: 1;
+    transition: .2s ease-in;
+  }
+
+  .services{
+    margin:50px auto;
+  }
+
+  .service-container{
+    padding:10px;
+  }
+
+  .service-container p{
+    text-align:left;
+  }
+
+  .service-container{
+    opacity:1;
+    transition: .2s ease-out;
+  }
+
+  .service-container:hover{
+    background:#064e58;
+    border: 1px solid #55a2ad;
+    cursor:pointer;
+    transition: .2s ease-in;
+  }
+
+  .form-container{
+    margin:0 auto;
+  }
+
+}
+
+/****************************************************LARGE*******************************/
+/****************************************************LARGE*******************************/
+/****************************************************LARGE*******************************/
+
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) {
+
+h2{
+  font-size: 1.8em;
+}
+
+.intro{
+  margin: 150px  auto;
+}
+
+.about .count{
+  left:13%;
+  margin-top:6px;
+ }
+
+.about .count .divider{
+ margin-top:6px;
+}
+
+.about .selfie img{
+  width:50%;
+  margin-top:0px;
+}
+
+.skills .count{
+  left: 17%;
+}
+
+.skills {
+  float:left;
+}
+
+.work-history .count{
+  left: 50%;
+  margin-top:10px;
+}
+
+.work-history .divider{
+  margin-top:10px;
+}
+
+.work-history-scroll{
+  height:238px;
+}
+
+.portfolio-backdrop{
+  background:#26353f;
+  padding:20px 0;
+}
+
+.portfolio .count{
+  left: 17%;
+  margin-top:6px;
+}
+
+.portfolio .divider{
+  margin-top:6px;
+}
+
+.portfolio{
+  margin:20px auto;
+  clear:both;
+}
+}
+
+
+/**************************************************X-LARGE*******************************/
+/**************************************************X-LARG*******************************/
+/**************************************************X-LARG*******************************/
+
+/*X-Large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) {}
+
+
+/*************************************************XX-LARGE*******************************/
+/*************************************************XX-LARG*******************************/
+/*************************************************XX-LARG*******************************/
+/* XX-Large devices (larger desktops, 1400px and up)  */
+@media (min-width: 1400px) {}
+/*********//*****PHONES*AND TABLETS************************************************************/
+
+/************* IPHONE Pro PORTRAIT 12 ***************************/
+/************* IPHONE Pro PORTRAIT 12 ***************************/
+/************* IPHONE Pro PORTRAIT 12 ***************************/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  .content-container{
+    padding: 0 15px;
+  }
+
+  .about .count,
+  .about .divider,
+  .skills .count,
+  .skills .divider,
+  .portfolio .count,
+  .portfolil .divider,
+  .work-history .count,
+  .work-history .divider{
+  display:none;
+  }
+
+  .intro{
+    margin-top:80px;
+  }
+  .intro img{
+    width:40%;
+  }
+
+  h1{
+    color:#79878f;
+    font-size:2em;
+    font-family:'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:0;
+  }
+  h2{
+    text-align:left;
+    color:#c4cfd5;
+  }
+
+  span{
+    color:#c4cfd5;
+  }
+
+    .intro p{
+      color:#79878f;
+      font-size:1em;
+    }
+
+    .about h2{
+      width:100%;
+    }
+
+    .about .col-4{
+      width:50%;
+      float:left;
+    }
+
+    .about{
+      margin-top:80px;
+      text-align:center;
+    }
+
+    .about p{
+      text-align:left;
+    }
+
+    .about .selfie img{
+      width:50%;
+      border-radius:50%;
+      border: 2px solid #4ac4da;
+    }
+
+    .skills .col-5{
+      margin-top:30px;
+      width:100%;
+    }
+
+    .skills ul{
+      margin:0;
+      padding:0;
+    }
+
+    .skills li{
+      list-style:none;
+      font-size:12px;
+    }
+
+    .skills .fa-solid{display:none;}
+
+    .work-history .col-5{
+      margin-top:20px;
+      width:100%
+    }
+
+    .work-history-scroll{
+      margin:20px 15px 40px 15px;
+      padding:20px;
+      width:93%;
+      background:#0a1e2a;
+      height:199px;
+      overflow-y: scroll;
+    }
+
+    .work-history-scroll ul{
+      margin:0;
+      padding:0;
+    }
+    .work-history-scroll li{
+      list-style-type:none;
+      margin: 15px 0;
+      color:#c4cfd5;
+    }
+
+  .work-history-container{
+    padding-top:15px;
+    border-top:1px solid #2f444d;
+  }
+
+  .work-history-container h3{
+    font-size:1.2em;
+    color:#a3aac5;
+  }
+
+  .work-history-container .work-year{
+    display:block;
+    text-align:right;
+    color:#a3aac5;
+  }
+
+    .work-history-container .work-title{
+    color:#fff;
+    }
+
+    /* width */
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(104, 232, 255);
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #c3faff;
+  }
+
+.portfolio .col-5{
+  width:100%;
+}
+
+.portfolio img{
+  width:100%;
+}
+
+.portfolio a{
+  color:#77ffff;
+  text-decoration:none;
+}
+
+.portfolio-container{
+  margin-bottom:50px;
+}
+
+.services{
+  margin-top:40px;
+  padding: 0 30px;
+}
+
+.service-container{
+  align-items: center;
+  text-align:center;
+  background: #0a1e2a;
+  margin: 15px 0;
+  border: 1px solid #374a54;
+  padding:10px;
+}
+
+.service-container .fa-solid{
+  margin-top:10px;
+  transform: rotate(0);
+  font-size:2em;
+}
+
+.service-container p{
+  text-align:left;
+  padding:10px;
+}
+
+.contact{
+  margin:30px 0 10px 0;
+  text-align:center;
+}
+
+.contact h3{
+  margin-bottom:40px;
+  text-align:center;
+}
+
+.contact form{
+  background:#194057;
+  padding:20px;
+  text-align:left;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  margin-bottom:60px;
+}
+
+.contact form .btn.btn-primary{
+  background:#49a5b8;
+  border:none;
+}
+
+footer{
+  background:#2e7c9a;
+  text-align:center;
+margin-top:100px;
+padding: 10px;
+}
+
+footer p{
+  padding: 0;
+  margin:0;
+}
+}
+
+/************ IPHONE 12 Pro LANSCAPE ****************************/
+/************ IPHONE 12 Pro LANSCAPE ****************************/
+/************ IPHONE 12 Pro LANSCAPE ****************************/
+
+@media only screen and (min-width: 844px) and (orientation: landscape){}
+
+/************ GALAXY 9+ PORTRAIT ********************************/
+/************ GALAXY 9+ PORTRAIT ********************************/
+/************ GALAXY 9+ PORTRAIT ********************************/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 4){
+  .content-container{
+    padding: 0 15px;
+  }
+
+  .about .count,
+  .about .divider,
+  .skills .count,
+  .skills .divider,
+  .portfolio .count,
+  .portfolil .divider,
+  .work-history .count,
+  .work-history .divider{
+  display:none;
+  }
+
+  .intro{
+    margin-top:80px;
+  }
+  .intro img{
+    width:40%;
+  }
+
+  h1{
+    color:#79878f;
+    font-size:2em;
+    font-family:'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:0;
+  }
+  h2{
+    text-align:left;
+    color:#c4cfd5;
+  }
+
+  span{
+    color:#c4cfd5;
+  }
+
+    .intro p{
+      color:#79878f;
+      font-size:1em;
+    }
+
+    .about h2{
+      width:100%;
+    }
+
+    .about .col-4{
+      width:50%;
+      float:left;
+    }
+
+    .about{
+      margin-top:80px;
+      text-align:center;
+    }
+
+    .about p{
+      text-align:left;
+    }
+
+    .about .selfie img{
+      width:50%;
+      border-radius:50%;
+      border: 2px solid #4ac4da;
+    }
+
+    .skills .col-5{
+      margin-top:30px;
+      width:100%;
+    }
+
+    .skills ul{
+      margin:0;
+      padding:0;
+    }
+
+    .skills li{
+      list-style:none;
+      font-size:12px;
+    }
+
+    .skills .fa-solid{display:none;}
+
+    .work-history .col-5{
+      margin-top:20px;
+      width:100%
+    }
+
+    .work-history-scroll{
+      margin:20px 15px 40px 15px;
+      padding:20px;
+      width:93%;
+      background:#0a1e2a;
+      height:199px;
+      overflow-y: scroll;
+    }
+
+    .work-history-scroll ul{
+      margin:0;
+      padding:0;
+    }
+    .work-history-scroll li{
+      list-style-type:none;
+      margin: 15px 0;
+      color:#c4cfd5;
+    }
+
+  .work-history-container{
+    padding-top:15px;
+    border-top:1px solid #2f444d;
+  }
+
+  .work-history-container h3{
+    font-size:1.2em;
+    color:#a3aac5;
+  }
+
+  .work-history-container .work-year{
+    display:block;
+    text-align:right;
+    color:#a3aac5;
+  }
+
+    .work-history-container .work-title{
+    color:#fff;
+    }
+
+    /* width */
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(104, 232, 255);
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #c3faff;
+  }
+
+.portfolio .col-5{
+  width:100%;
+}
+
+.portfolio img{
+  width:100%;
+}
+
+.portfolio a{
+  color:#77ffff;
+  text-decoration:none;
+}
+
+.portfolio-container{
+  margin-bottom:50px;
+}
+
+.services{
+  margin-top:40px;
+  padding: 0 20px;
+}
+
+.service-container{
+  align-items: center;
+  text-align:center;
+  background: #0a1e2a;
+  margin: 15px 0;
+  border: 1px solid #374a54;
+  padding:10px;
+}
+
+.service-container .fa-solid{
+  margin-top:10px;
+  transform: rotate(0);
+  font-size:2em;
+}
+
+.service-container p{
+  text-align:left;
+  padding:10px;
+}
+
+.contact{
+  margin:30px 0 10px 0;
+  text-align:center;
+}
+
+.contact h3{
+  margin-bottom:40px;
+  text-align:center;
+}
+
+.contact form{
+  background:#194057;
+  padding:20px;
+  text-align:left;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  margin-bottom:60px;
+}
+
+.contact form .btn.btn-primary{
+  background:#49a5b8;
+  border:none;
+}
+
+footer{
+  background:#2e7c9a;
+  text-align:center;
+margin-top:100px;
+padding: 10px;
+}
+
+footer p{
+  padding: 0;
+  margin:0;
+}
+
+}
+
+/************ GALAXY LANSCAPE ***********************************/
+/************ GALAXY LANSCAPE ***********************************/
+/************ GALAXY LANSCAPE ***********************************/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape){}
+
+/*************PIXEL 5 PORTRAIT**********************************/
+/*************PIXEL 5 PORTRAIT**********************************/
+/*************PIXEL 5 PORTRAIT**********************************/
+
+@media only screen and (min-width: 393px) and (max-width: 767px){}
+
+/*************PIXEL 5 LANDSCAPE*********************************/
+/*************PIXEL 5 LANDSCAPE*********************************/
+/*************PIXEL 5 LANDSCAPE*********************************/
+
+@media only screen and (min-width: 851px) and (orientation: landscape){}
+
+/*************TABLETS****************************************************************/
+
+/*************IPAD AIR******************************************/
+/*************IPAD AIR******************************************/
+/*************IPAD AIR******************************************/
+
+@media only screen and (min-width: 820px) and (max-width: 1180px){}
+
+/*************************************IPAD MINI****************/
+/*************************************IPAD MINI****************/
+/*************************************IPAD MINI****************/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){}
+
+
+
+
+

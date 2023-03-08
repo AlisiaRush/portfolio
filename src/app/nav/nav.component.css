@@ -1,0 +1,152 @@
+@media screen and (min-width: 480px) {
+  h4{
+    font-size: 29px;
+    margin: 7px 4px 0 2px;
+  }
+  .navbar{
+    background:#26353f;
+    padding:5px 0 5px;
+    width: 100%;
+    position: fixed;
+    opacity: .9;
+    top:0;
+    overflow:hidden;
+  }
+
+.navbar-nav li{
+    border-bottom:1px solid #484848;
+  }
+
+}
+/****************************************************MEDIUM*******************************/
+/****************************************************MEDIUM*******************************/
+/****************************************************MEDIUM*******************************/
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .icon{
+    text-align: center;
+    border-radius: 65%;
+    margin-bottom: 4px;
+  }
+
+  h4{
+    font-size: 29px;
+    margin: 7px 4px 0 2px;
+  }
+  .navbar{
+    background:#26353f;
+    padding-bottom: inherit;
+  }
+
+.navbar-nav li{
+    border-bottom:none;
+  }
+ }
+
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) {
+  .navbar{
+    background:#26353f;
+    padding-bottom: inherit;
+  }
+
+.navbar-nav li{
+  border-bottom:none;
+  }
+
+ }
+
+/*X-Large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) {
+  .navbar{
+    background:#26353f;
+    padding-bottom: inherit;
+  }
+
+.navbar-nav li{
+    border-bottom:none;
+  }
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up)  */
+@media (min-width: 1400px) {
+  .navbar{
+    background:#26353f;
+  }
+}
+
+/********************************************PHONES***********************************************/
+/********************************************PHONES***********************************************/
+/********************************************PHONES***********************************************/
+
+/************* IPHONE 12 ****************************************/
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  .icon{
+    text-align: center;
+    border-radius: 60%;
+    margin-bottom: 4px;
+  }
+
+  h4{
+    font-size: 26px;
+    margin: 7px 4px 0 2px;
+  }
+  .navbar{
+    background:#26353f;
+    padding-bottom: inherit;
+    width: 100%;
+    position: fixed;
+    opacity: .9;
+    top:0;
+    overflow:hidden;
+  }
+
+
+.navbar-nav li{
+    border-bottom:1px solid #484848;
+  }
+}
+
+/************ GALAXY PORTRAIT **************************************/
+@media only screen and (-webkit-min-device-pixel-ratio: 4) {
+  .icon{
+    text-align: center;
+    border-radius: 60%;
+    margin-bottom: 4px;
+  }
+
+  h4{
+    font-size: 26px;
+    margin: 7px 4px 0 2px;
+  }
+  .navbar{
+    background:#26353f;
+    padding-bottom: inherit;
+    width: 100%;
+    position: fixed;
+    opacity: .9;
+    top:0;
+    overflow:hidden;
+  }
+
+.navbar-nav li{
+    border-bottom:1px solid #484848;
+  }
+}
+
+/************ GALAXY LANSCAPE **************************************/
+@media only screen and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+
+}
+
+/************ IPHONE 12 Pro LANSCAPE **************************************/
+@media only screen and (min-width: 844px) and (orientation: landscape) {}
+
+
+
+
+
+
+
